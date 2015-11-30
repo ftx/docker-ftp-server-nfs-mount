@@ -9,12 +9,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 # DEBUG
 ENV DEBUG 0
 
-# Config GlusterFSClient
-ENV GLUSTER **NO**
-ENV GLUSTER_VOL ranchervol
-ENV GLUSTER_VOL_PATH /ftp
-ENV GLUSTER_PEER storage
-
 
 # FTP
 ENV FTP **NO**
