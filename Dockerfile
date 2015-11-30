@@ -16,7 +16,6 @@ ENV FTP_LOGIN flotix
 ENV FTP_PASSWD **ChangeMe**
 
 
-
 ################################
 
 
