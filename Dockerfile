@@ -20,7 +20,7 @@ ENV FTP_PASSWD **ChangeMe**
 
 
 RUN apt-get update && \
-    apt-get install -y python-software-properties software-properties-common proftpd nfs-common supervisor
+    apt-get install -y python-software-properties software-properties-common proftpd nfs-common supervisor nfslock rpcbind
 
 
 RUN mkdir -p /usr/local/bin

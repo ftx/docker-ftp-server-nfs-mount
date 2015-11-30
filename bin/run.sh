@@ -16,6 +16,10 @@ fi
 
 ### MOUNT NFS
 
+/etc/init.d/rpcbind restart
+/etc/init.d/nfslock restart
+
+
 mkdir -p /nfs
 mount -t nfs ${NFS_SERVER}:${NFS_REMOTE} /nfs
 
