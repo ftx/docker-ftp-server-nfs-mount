@@ -16,6 +16,7 @@ fi
 
 ### MOUNT NFS
 
+mkdir -p /nfs
 mount -t nfs ${NFS_SERVER}:${NFS_REMOTE} /nfs
 
 
